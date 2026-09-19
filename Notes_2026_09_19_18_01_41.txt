@@ -1,5 +1,3 @@
-Sep19 18:01
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,8 +39,7 @@ Sep19 18:01
       const formData = new FormData();
       formData.append('image_file', input.files[0]);
 
-      // Insert your API Key below:
-      const apiKey = " 8gbzYzWXUFE1LcASYymXe62Z"; 
+      const apiKey = "8gbzYzWXUFE1LcASYymXe62Z"; 
 
       try {
         const response = await fetch('https://clipdrop-api.co/remove-background/v1', {
@@ -67,5 +64,3 @@ Sep19 18:01
 
 </body>
 </html>
-
-
